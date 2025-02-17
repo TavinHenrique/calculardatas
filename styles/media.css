@@ -1,0 +1,38 @@
+@media screen and (max-width: 760px) {
+    body {
+        padding: 10px;
+    }
+
+    .button-container {
+        flex-direction: column;
+        gap: 5px;
+        
+    }
+
+    button {
+        width: 100%;
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    main {
+        margin-top: 20px;
+    }
+
+    span {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    #calcular {
+        margin-top: 20px;
+    }
+
+    #calcular input {
+        width: 100%;
+    }
+
+    #calcular button {
+        width: 100%;
+    }
+}

@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 15px;
+    background: linear-gradient(to left, #edfdb3, #7bfee249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+button {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    background-color: #4de67b3a;
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#calcular {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#calcular input {
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#calcular button {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    width: 100px;
+    height: 35px;
+    font-size: 16px;
+}
